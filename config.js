@@ -1,4 +1,4 @@
-const databaseuri={
+const databaseuri=process.env.DATABASE_URL || {
     database:'dbone',
     username:'userone',
     password:'passone',

@@ -1,0 +1,12 @@
+{
+  "name": "import",
+  "repository": "https://github.com/mohankukreja1/import",
+  "addons": [
+    "heroku-postgresql:hobby-dev"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
